@@ -1,0 +1,51 @@
+.grid {
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 300px;
+    width: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.invader {
+    background-image: url('img/alien.png');
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+.shooter {
+    background-image: url('img/ship.png');
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+.laser {
+    background-image: url('img/lesser.png');
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+.boom {
+    background-image: url('img/boom.png');
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
